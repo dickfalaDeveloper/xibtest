@@ -14,6 +14,8 @@
 		1AD930001AF8BA0900D38178 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD92FFF1AF8BA0900D38178 /* Images.xcassets */; };
 		1AD930031AF8BA0900D38178 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD930011AF8BA0900D38178 /* LaunchScreen.xib */; };
 		1AD9300F1AF8BA0900D38178 /* LoadXIbTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD9300E1AF8BA0900D38178 /* LoadXIbTestTests.m */; };
+		1AD930191AF8BA8700D38178 /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD930181AF8BA8700D38178 /* XibView.xib */; };
+		1AD9301C1AF8BACF00D38178 /* XibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD9301B1AF8BACF00D38178 /* XibView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		1AD930081AF8BA0900D38178 /* LoadXIbTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadXIbTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD9300D1AF8BA0900D38178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AD9300E1AF8BA0900D38178 /* LoadXIbTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadXIbTestTests.m; sourceTree = "<group>"; };
+		1AD930181AF8BA8700D38178 /* XibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
+		1AD9301A1AF8BACF00D38178 /* XibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibView.h; sourceTree = "<group>"; };
+		1AD9301B1AF8BACF00D38178 /* XibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				1AD92FF71AF8BA0800D38178 /* AppDelegate.m */,
 				1AD92FF91AF8BA0800D38178 /* ViewController.h */,
 				1AD92FFA1AF8BA0800D38178 /* ViewController.m */,
+				1AD9301A1AF8BACF00D38178 /* XibView.h */,
+				1AD9301B1AF8BACF00D38178 /* XibView.m */,
+				1AD930181AF8BA8700D38178 /* XibView.xib */,
 				1AD92FFC1AF8BA0800D38178 /* Main.storyboard */,
 				1AD92FFF1AF8BA0900D38178 /* Images.xcassets */,
 				1AD930011AF8BA0900D38178 /* LaunchScreen.xib */,
@@ -201,6 +209,7 @@
 			files = (
 				1AD92FFE1AF8BA0800D38178 /* Main.storyboard in Resources */,
 				1AD930031AF8BA0900D38178 /* LaunchScreen.xib in Resources */,
+				1AD930191AF8BA8700D38178 /* XibView.xib in Resources */,
 				1AD930001AF8BA0900D38178 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +230,7 @@
 			files = (
 				1AD92FFB1AF8BA0800D38178 /* ViewController.m in Sources */,
 				1AD92FF81AF8BA0800D38178 /* AppDelegate.m in Sources */,
+				1AD9301C1AF8BACF00D38178 /* XibView.m in Sources */,
 				1AD92FF51AF8BA0800D38178 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
