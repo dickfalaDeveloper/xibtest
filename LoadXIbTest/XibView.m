@@ -42,7 +42,11 @@
     return self;
 }
 
-
+-(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"tap in xib");
+ 
+}
 
 /*
 // Only override drawRect: if you perform custom drawing.
